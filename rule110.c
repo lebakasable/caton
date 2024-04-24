@@ -4,10 +4,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define TODO()                                                                 \
-  fprintf(stderr, "%d:%s: TODO: `%s` is not implemented yet", __LINE__,        \
-          __FILE__, __func__);                                                 \
-  exit(1);
+#include "./utils.h"
 
 #define ROW_SIZE 60
 #define ITERATIONS 100
